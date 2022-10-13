@@ -85,12 +85,10 @@ function setup() {
 
 
   itsStop = true;
-
 }
 
 function draw() {
   background(220);
-
 
   switch (screen) {
     case 1:
@@ -102,12 +100,6 @@ function draw() {
       text("presiona en el boton para empezar/pausar el video", 640, 750);
       break;
   }
-
-
-
-
-
-
 
 
 }
